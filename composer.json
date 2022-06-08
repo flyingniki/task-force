@@ -1,0 +1,16 @@
+{
+    "name": "flying_niki/task-force",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "taskforce\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Petr Nikitin"
+        }
+    ],
+    "require": {}
+}

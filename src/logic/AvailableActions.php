@@ -1,5 +1,7 @@
 <?php
 
+namespace taskforce\logic;
+
 class AvailableActions
 {
     const STATUS_NEW = 'new';
@@ -13,9 +15,9 @@ class AvailableActions
     const ACTION_COMPLETE = 'actionComplete';
     const ACTION_DENY = 'actionDeny';
 
-    private $executorId;
-    private $customerId;
-    private $status;
+    public $executorId;
+    public $customerId;
+    public $status;
 
     public function __construct($status, $executorId, $customerId)
     {
